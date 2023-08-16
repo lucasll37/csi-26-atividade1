@@ -3,13 +3,12 @@ import { Router } from "./routers";
 import { ThemeProvider } from "styled-components";
 import { Theme } from "./styles/themes";
 import { GlobalStyle } from "./styles/global";
-import {} 
-
+// import { baseUrl } from "./constants";
 
 export function App() {
 
 	return (
-		<BrowserRouter basename="">
+		<BrowserRouter>
 			<ThemeProvider theme={Theme}>
 				<GlobalStyle />
 
