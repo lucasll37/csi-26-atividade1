@@ -3,17 +3,24 @@ import styled from "styled-components"
 export const AdminWrapper = styled.div`
     height: 100%;
     flex: 1;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     border-radius: 8px;
     background: ${props => props.theme.f};
 
-    form {
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+
+    main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 3.5rem;
+        justify-content: space-between;
     }
 `;

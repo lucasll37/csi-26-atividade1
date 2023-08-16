@@ -29,6 +29,7 @@ export const Menu = styled.div`
 
     &:hover {
       text-decoration: none;
+      color: ${props => props.theme["d"]};
     }
   }
 `;

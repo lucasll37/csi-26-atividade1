@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const LayoutWrapper = styled.div`
-    max-width: 74rem;
+    max-width: 78rem;
     height: calc(100vh - 3rem);
     margin: 1rem auto;
     padding: 1rem;
