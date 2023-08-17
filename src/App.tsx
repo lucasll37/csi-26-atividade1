@@ -3,12 +3,12 @@ import { Router } from "./routers";
 import { ThemeProvider } from "styled-components";
 import { Theme } from "./styles/themes";
 import { GlobalStyle } from "./styles/global";
-// import { baseUrl } from "./constants";
+
 
 export function App() {
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={import.meta.env.BASE_URL}>
 			<ThemeProvider theme={Theme}>
 				<GlobalStyle />
 
