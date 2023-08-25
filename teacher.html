@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ced 02 - Home</title>
     <link rel="stylesheet" type="text/css" href="./assets/styles/global.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="./assets/styles/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/teacher.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
     <script src="./assets/js/global.js"></script>
-    <script src="./assets/js/index.js"></script>
 </head>
 <body>
-    <h1>School</h1>
+    <div class="page">
+        <header class="header">
+            <span class="logo">Centro Educacional 02 de Sobradinho</span>
+            <nav class="navBar">
+                <a class="links" href="./index.html">Início</a>
+                <a class="links" href="./studant.html">Alunos</a>
+                <a class="links" href="./teacher.html">Professores</a>
+                <a class="links" href="./admin.html">Admin</a>
+                <a class="links" href="./guest.html">Visitantes</a>
+            </nav>
+        </header>
+        <div class="content">
+            <img class="outdoor" src="./assets/images/teacher.jpg" alt="Logo do CED 02" />
+            <main class="info">
+                <div class="infoTitle">
+                </div>
+                <div class="infoContent">
+                    <h1>Horário de Aula dos Professores</h1>
+                    <table>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Segunda-feira</th>
+                            <th>Terça-feira</th>
+                            <th>Quarta-feira</th>
+                            <th>Quinta-feira</th>
+                            <th>Sexta-feira</th>
+                        </tr>
+                        <tr>
+                            <td>08:00 - 09:00</td>
+                            <td>Matemática</td>
+                            <td>Português</td>
+                            <td>Biologia</td>
+                            <td>Geografia</td>
+                            <td>Química</td>
+                        </tr>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td>Português</td>
+                            <td>Matemática</td>
+                            <td>Física</td>
+                            <td>Biologia</td>
+                            <td>Geografia</td>
+                        </tr>
+                        <tr>
+                            <td>10:10 - 11:10</td>
+                            <td>Geografia</td>
+                            <td>Química</td>
+                            <td>Matemática</td>
+                            <td>Física</td>
+                            <td>Português</td>
+                        </tr>
+                        <tr>
+                            <td>11:10 - 12:10</td>
+                            <td>Física</td>
+                            <td>Biologia</td>
+                            <td>Português</td>
+                            <td>Química</td>
+                            <td>Matemática</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
